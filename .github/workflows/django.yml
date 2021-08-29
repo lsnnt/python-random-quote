@@ -26,7 +26,7 @@ jobs:
         python -m pip install --upgrade pip
     - name: Run Tests
       run: |
-          sudo curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash && sudo apt-get install speedtest && speedtest
+          sudo curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash && sudo apt-get install speedtest && speedtest --accept-license
           sudo git clone https://github.com/nityanand86876/python-random-quote.git
           cd python-random-quote
           python get-quote.py
