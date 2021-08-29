@@ -1,5 +1,5 @@
 Responsive is better than fast
-It’s not fully shipped until it’s fast
+Its not fully shipped until its fast
 Anything added dilutes everything else
 Practicality beats purity
 Approachable is better than simple
